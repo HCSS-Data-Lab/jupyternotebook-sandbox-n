@@ -1,7 +1,7 @@
 ###############################################################################################
 # HCSS jupyter - BASE
 ###############################################################################################
-FROM jupyter/scipy-notebook:2022-12-30 as hcss-jupyternotebook-n-base
+FROM jupyter/scipy-notebook:2023-03-06 as hcss-jupyternotebook-n-base
 
 WORKDIR /var/www
 
