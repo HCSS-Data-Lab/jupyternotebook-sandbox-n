@@ -31,7 +31,7 @@ FROM hcss-jupyternotebook-n-base as hcss-jupyternotebook-n-deploy
 
 # install pip applications
 RUN pip install --upgrade pip
-RUN pip install sklearn
+RUN pip install scikit-learn
 
 # home folder for personal R packages
 RUN mkdir -p ~/R/x86_64-pc-linux-gnu-library/4.1
